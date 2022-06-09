@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+
+RewriteBase /cursos-desarrollo/netflix
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?r=$1 [L]
+

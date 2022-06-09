@@ -1,0 +1,122 @@
+.html-cont {
+  background-color: #141414;
+  color: #fff;
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+.logo {
+  font-size: 3rem;
+  color: red;
+}
+table {
+  width: 100%;
+  color: #141414;
+}
+table td,
+table th {
+  padding: 0.25rem;
+}
+table tr:first-child {
+  background-color: #e50914;
+  color: #fff;
+}
+table tr:nth-child(even) {
+  background-color: #666;
+}
+table tr:nth-child(odd):not(:first-child) {
+  background-color: #999;
+}
+.li-menu > a {
+  color: #e50914;
+  text-decoration: none;
+}
+.li-menu > a:hover {
+  color: #fff;
+}
+.li-menu {
+  list-style: none;
+}
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 5rem;
+}
+.container-table {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  width: 6rem;
+  padding: 0.3rem 1rem;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.75;
+}
+.item-article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-table {
+  width: 70%;
+}
+.add {
+  background-color: #0b0;
+}
+.edit {
+  background-color: #0871b2;
+}
+.delete {
+  background-color: #d23614;
+}
+.show {
+  background-color: #141414;
+}
+.error {
+  background-color: #e50914;
+}
+input {
+  color: black;
+}
+.form-user {
+  margin: 5px;
+  color: black;
+}
+.img-error-404 {
+  min-width: 7800px;
+  max-width: 800px;
+  height: auto;
+}
+.img-error-401 {
+  max-width: 300px;
+  height: auto;
+}
+input {
+  background-color: transparent;
+  outline: none;
+  border: 5px solid red;
+}
+
+.poster {
+  max-width: 200px;
+}
+.trailer iframe {
+  width: 560px;
+  height: 315px;
+}
